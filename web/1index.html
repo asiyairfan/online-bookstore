@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readers Heaven</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+   <!-- Responsive Navbar with Dropdown Menus -->
+    
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Readers Heaven</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#books">Books</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                    <li><a class="dropdown-item" href="#fiction">Fiction</a></li>
+                    <li><a class="dropdown-item" href="#nonfiction">Non-Fiction</a></li>
+                    <li><a class="dropdown-item" href="#mystery">Mystery</a></li>
+                    <li><a class="dropdown-item" href="#fantasy">Fantasy</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#cart">Cart</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Account
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Orders</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-center text-white py-5" style="background-image: url('banner.jpg'); background-size: cover;">
+    <div class="container">
+        <h1>Welcome to Readers Heaven</h1>
+        <p>Find your next great read</p>
+        <a href="#books" class="btn btn-primary btn-lg">Shop Now</a>
+    </div>
+</section>
+
+    <section id="books" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Our Books</h2>
+            <div class="row">
+                <!-- Book 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="it ends.jpg" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">It Ends With Us</h5>
+                            <p class="card-text">Author: Collen Hoover</p>
+                            <p class="card-text">Rs780.00</p>
+                            <button class="btn btn-primary add-to-cart" data-title="Book Title 1" data-price="15">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="nmal.jpg" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">NAMAL</h5>
+                            <p class="card-text">Author: Nimra Ahmed</p>
+                            <p class="card-text">Rs5500.00</p>
+                            <button class="btn btn-primary add-to-cart" data-title="Book Title 1" data-price="15">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="kite.jpg" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Kite Runner</h5>
+                            <p class="card-text">Author: Khalid Hussaini</p>
+                            <p class="card-text">Rs569.00</p>
+                            <button class="btn btn-primary add-to-cart" data-title="Book Title 1" data-price="15">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="poordad.jpg" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Rich Dad Poor Dad</h5>
+                            <p class="card-text">Author: Robert Kayosaki</p>
+                            <p class="card-text">Rs899.00</p>
+                            <button class="btn btn-primary add-to-cart" data-title="Book Title 1" data-price="15">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="twisted love.jpg" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Twisted Love</h5>
+                            <p class="card-text">Author: Ana Huang</p>
+                            <p class="card-text">Rs675.00</p>
+                            <button class="btn btn-primary add-to-cart" data-title="Book Title 1" data-price="15">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="salar.jpg" class="card-img-top" alt="Book 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Peer -e-Kamil</h5>
+                            <p class="card-text">Author: Umera Ahmed</p>
+                            <p class="card-text">Rs999.00</p>
+                            <button class="btn btn-primary add-to-cart" data-title="Book Title 1" data-price="15">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other books -->
+            </div>
+        </div>
+    </section>
+    <section id="categories" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Categories</h2>
+            <div class="row">
+                <div class="col-md-3"><button class="btn btn-secondary w-100 mb-3">Fiction</button></div>
+                <div class="col-md-3"><button class="btn btn-secondary w-100 mb-3">Non-Fiction</button></div>
+                <div class="col-md-3"><button class="btn btn-secondary w-100 mb-3">Mystery</button></div>
+                <div class="col-md-3"><button class="btn btn-secondary w-100 mb-3">Fantasy</button></div>
+            </div>
+        </div>
+    </section>
+    <section id="cart" class="py-5">
+        <div class="container">
+          <b> <h2 class="text-center">Shopping Cart</h2></b>
+            <table class="table">
+                <thead>
+                    <tr>
+                         <B><th scope="col">Book</th></B>
+                       <b> <th scope="col">Price</th></B>
+                        <b>   <th scope="col">Quantity</th></B>
+                      <b>  <th scope="col">Total</th></B>
+                        <b>  <th scope="col"></th></B>
+                    </tr>
+                </thead>
+                <!-- <tbody id="cart-items"> -->
+                    <!-- Cart items will be inserted here by JavaScript -->
+                <!-- </tbody> -->
+            </table>
+            <div class="text-right">
+                <h5>Total: Rs<span id="cart-total">0</span></h5>
+                <button class="btn btn-success">Checkout</button>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 BookShop. All rights reserved.</p>
+        <p><a href="#" class="text-white">Facebook</a> | <a href="#" class="text-white">Twitter</a> | <a href="#" class="text-white">Instagram</a></p>
+    </footer>
+                        
+    <!-- Bootstrap and JavaScript Bundle (no jQuery) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+    color: #333; /* Adjust text color for readability on background */
+}
+
+
+h1, h2, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #257ed6;
+}
+
+.navbar-brand, .nav-link {
+    color: #183054 !important;
+}
+
+.nav-link:hover {
+    color: #f2b232 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn-primary {
+    background-color: #e67e22;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #d35400;
+}
+
+/* Books Section */
+#books {
+    background-color: #f4f6f9;
+    padding: 40px 0;
+}
+
+#books h2 {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #7f8c8d;
+}
+
+.add-to-cart {
+    background-color: #e67e22;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #d35400;
+}
+
+/* Categories Section */
+#categories {
+    padding: 40px 0;
+}
+
+#categories h2 {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+#categories .btn-secondary {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#categories .btn-secondary:hover {
+    background-color: #2980b9;
+}
+
+/* Cart Section */
+#cart {
+    padding: 40px 0;
+}
+
+#cart h2 {
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+#cart .table {
+    margin-top: 20px;
+}
+
+#cart .btn-danger {
+    background-color: #e74c3c;
+    border: none;
+}
+
+#cart .btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #f1c40f;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+
+/* Button Styles */
+.btn-primary, .btn-success {
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    opacity: 0.9;
+}
